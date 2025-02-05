@@ -3,3 +3,8 @@ NumPy is a general-purpose array-processing package. It provide high performance
 
 #### What is an Array
 An Array is a data structure that stores values of same data type. In Python, this is the main difference between array ans list. While pythind list contains values corresponding to different data types, array in python can only contain values corresponding to same data type.
+
+
+## Initial let import numpy
+import numpy as np
+
