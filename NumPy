@@ -205,11 +205,38 @@ np.ones((2,5),dtype=int) #It will create 2 rows and 5 columns with data type int
 
 ##------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Random Distribution
+np.random.rand(3,3) # it will get the random data and by default it is taking 0 to 1
+                  # output array([[0.31149432, 0.38057647, 0.89078792],
+                               [0.39277695, 0.84114302, 0.10567244],
+                               [0.35367652, 0.10010474, 0.79096548]])
 
 
 
+## randn It is based on stadard normal distribution
+arr_ex = np.random.randn(4,4)
+arr_ex            # output array([[ 0.84674921,  0.11843128, -1.62685893,  2.07726427],
+                               [ 0.6523247 ,  0.06733027,  1.62599606,  0.04821134],
+                               [ 1.06064561,  0.46023513,  1.31027388,  0.99741146],
+                               [-0.500207  ,  0.07051587, -1.07419315, -0.8388579 ]])
 
 
+
+np.random.randint(1,100,8).reshape(4,2) # in thid rantint selecting integer 8 values from 1 to 100 and reshaping in 4 rows and 2 columns 
+                                    # output array([[64, 70],
+                                                 [32, 55],
+                                                 [ 3, 16],
+                                                 [19, 65]])
+
+
+np.random.random_sample((1,5)) #andom floats in the half-open interval [0.0, 1.0)
+                              # output array([[0.8588973 , 0.09826565, 0.29929052, 0.68109268, 0.001849  ]])
+
+##------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+      
 
 
 
