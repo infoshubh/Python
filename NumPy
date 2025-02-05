@@ -132,6 +132,37 @@ np.linspace(1,10, 50) # from 1 to 100 and point different is 50      # output
                                                                           9.26530612,  9.44897959,  9.63265306,  9.81632653, 10.        ])
 
 
+##------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## copy() function and bradcasting
+arr3 = np.array([1,2,3,4,5,6,7,8,9])
+arr3[3:]=200
+arr3      # array([  1,   2,   3, 200, 200, 200, 200, 200, 200])
+
+## Reference type 
+arr4 = arr3 # Assigning arr3 array data to arr4 array
+arr4[4:]=500       # Assigning 500 data from index 4 to last to arr4 array
+arr4            # array([  1,   2,   3, 200, 500, 500, 500, 500, 500])
+arr3        # Here I have updated arr4 but arr3 also updated coz of sharing same addresses so to avoid this we will use copy function (reference type)
+            # Output array([  1,   2,   3, 200, 500, 500, 500, 500, 500])
+
+
+## To avoid referecne in array we use copy
+arr3      # array([  1,   2,   3, 200, 500, 500, 500, 500, 500])
+arr5 = arr3.copy() # here we a new copy so whatever we write it will be in that copy of array 
+arr5      # array([  1,   2,   3, 200, 500, 500, 500, 500, 500])
+arr5[2:]=600
+arr5      # array([  1,   2, 600, 600, 600, 600, 600, 600, 600])
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -141,6 +172,7 @@ np.linspace(1,10, 50) # from 1 to 100 and point different is 50      # output
 
 
 ##------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
