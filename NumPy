@@ -154,22 +154,54 @@ arr5      # array([  1,   2,   3, 200, 500, 500, 500, 500, 500])
 arr5[2:]=600
 arr5      # array([  1,   2, 600, 600, 600, 600, 600, 600, 600])
 
+##------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Some conditions very useful in Exploratory Data Analytics
+val = 2
+arr      # array([  0,   1,   2, 100, 100, 100, 100, 100, 100, 100])
+
+
+arr<2 # It will check and return each value data
+            # output array([ True,  True, False, False, False, False, False, False, False, False])
+
+
+arr*2 # we can do multiply and return each value data multiply by 2
+            # output array([  0,   2,   4, 200, 200, 200, 200, 200, 200, 200])
+
+
+arr/2
+            # output array([ 0. ,  0.5,  1. , 50. , 50. , 50. , 50. , 50. , 50. , 50. ])
+
+
+arr%2
+            # output array([0, 1, 0, 0, 0, 0, 0, 0, 0, 0])
+
+
+arr[arr<2] # If i need value than we need to right in this way
+            # output array([0, 1])
+
+##------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Create array and reshape
+np.arange(0,10).reshape(5,2) # arange to generate random array and reshaping with 5 rows and 2 columns
+                              # output array([[0, 1],
+                                           [2, 3],
+                                           [4, 5],
+                                           [6, 7],
 
 
 
+np.ones(4) # it is basically created by array with values 1's and bydefault its a float value
+            # output array([1., 1., 1., 1.])
 
 
+np.ones(4,)      
+            # output array([1., 1., 1., 1.])
 
 
-
-
-
-
-
-
-
-
-
+np.ones((2,5),dtype=int) #It will create 2 rows and 5 columns with data type integer by default its float
+            # output array([[1, 1, 1, 1, 1],
+                         [1, 1, 1, 1, 1]])
 
 ##------------------------------------------------------------------------------------------------------------------------------------------------------------
 
