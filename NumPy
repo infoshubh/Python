@@ -234,7 +234,16 @@ np.random.random_sample((1,5)) #andom floats in the half-open interval [0.0, 1.0
 
 ##------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+#### Seaborn
 
+## Seaborn and Pandas
+import seaborn as sns
+import pandas as pd
+
+sns.displot(pd.DataFrame(arr_ex.reshape(16,1))) # show the plot diagram based on data, currently we get the random data
+
+
+##-----------------------------------------------X--------------------------------------------------X-----------------------------------------------------------
 
       
 
