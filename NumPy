@@ -8,3 +8,42 @@ An Array is a data structure that stores values of same data type. In Python, th
 ## Initial let import numpy
 import numpy as np
 
+
+my_lst = [1,2,3,4,5] # list
+arr = np.array(my_lst) # convert into array
+print(arr) # [1 2 3 4 5]
+type(arr) # numpy.ndarray
+
+
+arr.shape # check the shape of an array # (5,)
+
+
+
+# multinested array
+my_lst1 = [1,2,3,4,5]
+my_lst2 = [2,3,4,5,6]
+my_lst3 = [9,7,6,8,9]
+arr=np.array([my_lst1, my_lst2, my_lst3])
+arr 
+      # Output   array([[1, 2, 3, 4, 5],
+                  [2, 3, 4, 5, 6],
+                  [9, 7, 6, 8, 9]])
+
+
+
+arr.shape # check the shape of an array # (3, 5)
+
+
+
+arr.reshape(5,3)  # Output
+                    array([[1, 2, 3],
+                     [4, 5, 2],
+                     [3, 4, 5],
+                     [6, 9, 7],
+                     [6, 8, 9]])
+
+
+arr.shape # check the shape of an array # (3, 5)
+
+
+
