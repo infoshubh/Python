@@ -6,7 +6,6 @@
 Instructions:
 - Assign the integer value 10 to a variable named x.
 - Print the value and check the data type of x.
-------------------------------------------------------------------------------------
 
 x = 10
 print("Value of x:", x)
@@ -22,7 +21,93 @@ y = 120
 print("Value of y is", y)
 
 Output:
-Value of x: 10
-Data type of x: <class 'int'>
+Value of y is 120
 
 ------------------------------------------------------------------------------------
+
+### 2: Arithmetic Operations:
+
+Instructions:
+- Assign the values 17 and 6 to two variables, `a` and `b`, respectively.
+- Perform addition, subtraction, multiplication, and division on `a` and `b`, and assign the results to new variables `add`, `sub`, `mul`, and `div`, respectively.
+- Print the values of `add`, `sub`, `mul`, and `div`.
+
+a = 17
+b = 6
+
+add = a + b
+sub = a - b
+mul = a * b
+div = a / b
+
+print("Addition:", add)
+print("Subtraction:", sub)
+print("Multiplication:", mul)
+print("Division:", div)
+
+Output:
+Addition: 23
+Subtraction: 11
+Multiplication: 102
+Division: 2.8333333333333335
+------------------------------------------------------------------------------------
+
+### 3: Type Conversion:
+
+Instructions:
+    
+- Assign the float value 7.2 to a variable `num_float`.
+- Convert `num_float` to an integer and assign it to a new variable `num_in`t.
+- Print the values and types of `num_float` and `num_int`.
+
+num_float = 7.2
+num_int = int(num_float)
+
+print("num_float value:", num_float, "Type:", type(num_float))
+print("num_int value:", num_int, "Type:", type(num_int))
+
+Output:
+num_float value: 7.2 Type: <class 'float'>
+num_int value: 7 Type: <class 'int'>
+
+------------------------------------------------------------------------------------
+
+### 4: Comparison Operators - Multiple Comparisons
+
+Instructions:
+- Assign the values 25, 16, and 32 to three variables, x, y, and z, respectively.
+- Check if x is greater than y and y is less than z.
+- Check if x is less than y or y is greater than or equal to z.
+- Print the results of both comparisons.
+
+x = 25
+y = 16
+z = 32
+
+comparison1 = x > y and y < z
+comparison2 = x < y or y >= z
+
+print("x > y and y < z:", comparison1)
+print("x < y or y >= z:", comparison2)
+
+Output:
+x > y and y < z: True
+x < y or y >= z: False
+
+------------------------------------------------------------------------------------
+
+### 5: if Statement
+
+Instructions:
+- Assign the value 8 to a variable `num`.
+- Write an if statement that checks if `num` is greater than 4.
+- If `num` is greater than 4, print "The number is greater than 4.
+
+num = 12
+
+if num > 5:
+    print("The number is greater than 5")
+
+Output:
+The number is greater than 5
+
