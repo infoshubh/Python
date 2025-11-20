@@ -1,0 +1,28 @@
+# Python Programming
+------------------------------------------------------------------------------------
+
+### 1: Variable Assignment and Data Types
+
+Instructions:
+- Assign the integer value 10 to a variable named x.
+- Print the value and check the data type of x.
+------------------------------------------------------------------------------------
+
+x = 10
+print("Value of x:", x)
+print("Data type of x:", type(x))
+
+Outpu:
+Value of x: 10
+Data type of x: <class 'int'>
+
+------------------------------------------------------------------------------------
+
+y = 120
+print("Value of y is", y)
+
+Output:
+Value of x: 10
+Data type of x: <class 'int'>
+
+------------------------------------------------------------------------------------
